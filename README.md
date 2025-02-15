@@ -1,79 +1,70 @@
-🚀 AI-Powered Smart Surveillance System
-A real-time face recognition-based security solution enhancing surveillance with AI-powered authentication.
+# **VisionGuard: AI-Driven Face Recognition Security**
 
-📌 Overview
-The AI-Powered Smart Surveillance System leverages deep learning and OpenCV to detect and recognize faces, enhancing security in real-time. This system can be integrated into CCTV networks, access control systems, and restricted areas to ensure authorized access and prevent unauthorized intrusions.
+## **Overview**
+VisionGuard is an AI-powered face recognition security system designed to enhance surveillance by identifying individuals in real-time. Utilizing OpenCV and deep learning techniques, it ensures robust and efficient facial authentication.
 
-🎯 Features
-✅ Real-Time Face Detection & Recognition using OpenCV and deep learning.
-✅ High Accuracy Authentication with AI-driven facial recognition models.
-✅ User Database Management for authorized personnel.
-✅ Surveillance Integration for continuous monitoring.
-✅ Alerts & Logging for unrecognized or unauthorized individuals.
+## **Features**
+- 🚀 **Real-Time Face Detection** using OpenCV
+- 🔍 **Face Recognition** with deep learning-based models
+- 🔐 **Access Control** – Grant/Deny access based on recognition
+- 📸 **Automated Image Capturing** for logging unauthorized access attempts
+- 📊 **Accuracy-Based Identification** to minimize false positives
 
-🛠️ Technologies Used
-Python
-OpenCV
-Deep Learning (FaceNet/dlib)
-Flask (for web-based UI)
-SQLite / Firebase (for user authentication and face storage)
-📂 Project Structure
-php
-Copy
-Edit
-📂 AI-Powered-Smart-Surveillance
-│── 📂 static/                # Stores images & assets  
-│── 📂 templates/             # HTML files (if using Flask)  
-│── app.py                    # Main application script  
-│── face_recognition.py        # Core logic for face detection  
-│── dataset/                   # Stores images for training  
-│── model/                     # Pretrained deep learning model  
-│── requirements.txt           # Python dependencies  
-│── README.md                  # Documentation  
-🚀 Installation & Setup
-1️⃣ Clone the repository
+## **Tech Stack**
+- **Programming Language:** Python
+- **Libraries & Frameworks:** OpenCV, TensorFlow/Keras, dlib
+- **Database:** SQLite / Firebase (optional for logging access)
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/AI-Powered-Smart-Surveillance.git
-cd AI-Powered-Smart-Surveillance
-2️⃣ Install dependencies
+## **Installation & Setup**
+### **Prerequisites**
+Ensure you have the following installed:
+- Python 3.x
+- OpenCV (`pip install opencv-python`)
+- dlib (`pip install dlib`)
+- TensorFlow/Keras (`pip install tensorflow`)
+- NumPy (`pip install numpy`)
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3️⃣ Run the application
+### **Steps to Run the Application**
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/VisionGuard.git
+   cd VisionGuard
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the face recognition system:
+   ```sh
+   python app.py
+   ```
 
-bash
-Copy
-Edit
-python app.py
-4️⃣ Access the system
+## **Usage**
+- **Register Faces:** Add authorized users to the database.
+- **Run Surveillance:** The system continuously scans and matches faces in real-time.
+- **Log Unauthorized Access:** Unrecognized faces are logged with timestamps.
 
-If it's a Flask-based app, open http://127.0.0.1:5000/ in your browser.
-If it's a standalone script, ensure the webcam is connected and functional.
-🖼️ Project Outcomes
-The system successfully detects and recognizes individuals in real-time. Below are some sample outputs:
+## **Outcome Screenshots**
+### ✅ **Face Detection in Real-Time**
+![sp6](https://github.com/user-attachments/assets/e9bce157-c446-4b4b-88a6-76c3c36b078a)
 
-Face Detection in Live Stream
-![sp4](https://github.com/user-attachments/assets/868c3436-6ac6-4961-9a9c-b1bc864adc39)
 
-Recognition of Authorized Users
-![sp6](https://github.com/user-attachments/assets/d4876da8-6b7b-4d4d-b94d-025a7f896a84)
+### 🔍 **Recognition with Labeled Names**
+![sp4](https://github.com/user-attachments/assets/c0f2872b-f2ee-4c09-84f6-2aa67db5c028)
 
-Alert for Unauthorized Access
-![sp2](https://github.com/user-attachments/assets/787eb4c4-673c-44c8-974d-d4a78901f218)
 
-🔥 Future Enhancements
-🔹 Cloud Integration for remote face data storage
-🔹 Multi-Camera Support for enhanced surveillance coverage
-🔹 Mask Detection & Spoofing Prevention for advanced security
+### ❌ **Unauthorized Access Attempt Logged**
+![sp2](https://github.com/user-attachments/assets/558786ed-f341-499a-adc4-31857ba41ad9)
 
-📌 Contributing
-We welcome contributions! Feel free to fork, raise issues, and submit pull requests.
 
-📜 License
-This project is open-source under the MIT License.
+## **License**
+This project is licensed under the **Apache License 2.0** - see the [LICENSE](LICENSE) file for details.
 
+## **Contributing**
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
+
+## **Contact**
+For queries or collaborations, reach out at **your.email@example.com**
+
+---
+🚀 **Enhance security with AI-powered face recognition!**
