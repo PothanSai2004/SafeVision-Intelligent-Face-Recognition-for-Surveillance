@@ -44,18 +44,6 @@ Ensure you have the following installed:
 - **Run Surveillance:** The system continuously scans and matches faces in real-time.
 - **Log Unauthorized Access:** Unrecognized faces are logged with timestamps.
 
-## **Outcome Screenshots**
-### ✅ **Face Detection in Real-Time**
-![sp6](https://github.com/user-attachments/assets/e9bce157-c446-4b4b-88a6-76c3c36b078a)
-
-
-### 🔍 **Recognition with Labeled Names**
-![sp4](https://github.com/user-attachments/assets/c0f2872b-f2ee-4c09-84f6-2aa67db5c028)
-
-
-### ❌ **Unauthorized Access Attempt Logged**
-![sp2](https://github.com/user-attachments/assets/558786ed-f341-499a-adc4-31857ba41ad9)
-
 
 ## **License**
 This project is licensed under the **Apache License 2.0** - see the [LICENSE](LICENSE) file for details.
